@@ -1,5 +1,5 @@
 <?php
-echo "<head><title>My Guest Book</title></head>";
+echo "<head><title>PENYEWA</title></head>";
 $fp=fopen("penyewa.txt","r");
 
 echo "<table border=1>";
@@ -23,5 +23,5 @@ while($isi=fgets($fp)){
 }
 echo "</table>";
 echo "<br>";
-echo "<a href='index.php' >HOME</a>";
+echo "<a href='index.html' >HOME</a>";
 ?>

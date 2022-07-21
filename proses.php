@@ -1,5 +1,4 @@
 <?php
-
 $nama = $_POST['nama'];
 $email = $_POST['email'];
 $alamat = $_POST['alamat'];
@@ -11,5 +10,5 @@ $fp = fopen("penyewa.txt","a+");
 fputs($fp,"$nama|$nohp|$email|$alamat|$tanggal\n");
 fclose($fp);
 
-header('Location:index.php');
+header('Location:index.html');
 ?>
